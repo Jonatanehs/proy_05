@@ -12,11 +12,21 @@ console.log(texto.nombreMinus("ESTIVEN"));
 console.log(texto.cantidad("Jonatan", "salazar"));
 
 
- let i = nombre.length;
+let nombre1 = "Estiven";
+let nombre2 = "Salazar";
+
+let nombres = nombre1 + "  " + nombre2;
+
+console.log(nombres);
+
+ let i = nombres.length;
  let y = 1;
 
  while (i > 0) {
-    console.log(y  + '  ' + nombre.substring(0,i));
+    console.log(y  + '  ' + nombres.substring(0,i));
     i--;
     y++;
  }
+
+ 
+ 
