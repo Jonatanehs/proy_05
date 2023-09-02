@@ -28,5 +28,20 @@ console.log(nombres);
     y++;
  }
 
+i = 0;
+y = 1;
+
+while (i < nombres.length) {
+    console.log(y + '  ' + nombres.substring(i + 0));
+    i++;
+    y++;
+}
+
+
+
+
+
+
+
  
  
