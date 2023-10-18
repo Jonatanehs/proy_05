@@ -35,13 +35,4 @@ while (i < nombres.length) {
     console.log(y + '  ' + nombres.substring(i + 0));
     i++;
     y++;
-}
-
-
-
-
-
-
-
- 
- 
+} 
